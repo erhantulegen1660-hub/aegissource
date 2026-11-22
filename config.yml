@@ -1,0 +1,64 @@
+server:
+  domain: "aegis.gamepvp.ru"
+  discord: "https://discord.gg/aegis"
+  hub-world: "world_hub"
+  hub-spawn:
+    x: 100.5
+    y: 64.0
+    z: 100.5
+    yaw: 0.0
+    pitch: 0.0
+
+database:
+  mysql:
+    enabled: false
+    host: "127.0.0.1"
+    port: 3306
+    database: "aegis"
+    username: "aegis"
+    password: ""
+
+chat:
+  local-radius: 100
+  blocked-words:
+    - "хуй"
+    - "пизд"
+    - "бля"
+    - "еба"
+    - "сука"
+    - "нахуй"
+    - "pidor"
+    - "хуе"
+    - "мудак"
+    - "гандон"
+    - "шлюх"
+  blocked-domains:
+    - ".ru"
+    - ".com"
+    - ".net"
+    - ".org"
+    - ".gg"
+    - ".fun"
+    - ".su"
+    - "aternos"
+    - "minehut"
+
+match:
+  lobbies:
+    - "kb_1"
+    - "kb_2"
+    - "kb_3"
+  min-players-to-start: 4
+  max-players: 32
+  countdown-seconds: 30
+  mining-phase-seconds: 1800
+  shrinking-phase-seconds: 600
+  final-phase-seconds: 600
+  fall-protection-seconds: 10
+  world-border-initial: 1000
+  world-border-final: 50
+  gapple-craft-limit: 2
+
+easydonate:
+  shop-id: "00000"
+  secret-key: "CHANGE_ME"

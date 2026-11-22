@@ -1,0 +1,4 @@
+max-team-size: 4
+min-team-size: 2
+invite-expire-seconds: 60
+friendly-fire: false

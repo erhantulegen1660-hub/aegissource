@@ -1,0 +1,65 @@
+name: AEGIS
+main: com.aegis.AegisPlugin
+version: '${project.version}'
+api-version: '1.21'
+authors: [AEGIS Team]
+description: Королевская битва, легендарки, косметика, топы.
+website: https://aegis.gamepvp.ru
+softdepend: [PlaceholderAPI, Purpur]
+load: POSTWORLD
+
+commands:
+  hub:        { description: "Телепорт в хаб", usage: "/hub" }
+  tell:       { description: "Личное сообщение", usage: "/tell <ник> <текст>" }
+  reply:      { description: "Ответ на ЛС", usage: "/reply <текст>" }
+  vipchat:    { description: "VIP-чат", aliases: [vc], usage: "/vc <текст>" }
+  check:      { description: "Проверка на читы", usage: "/check <ник>" }
+  donate:     { description: "Магазин и баланс", usage: "/donate" }
+  vip:        { description: "Управление плашкой", usage: "/vip color <цвет>" }
+  suffix:     { description: "Токен титула", usage: "/suffix <текст>" }
+  team:       { description: "Команды КБ", usage: "/team <invite|accept|decline|leave>" }
+  class:      { description: "Выбор класса", usage: "/class" }
+  case:       { description: "Зимний кейс", usage: "/case" }
+  top:        { description: "Топы", usage: "/top <период> <категория>" }
+  legend:     { description: "Книга рецептов", usage: "/legend" }
+  fly:        { description: "Полёт в хабе", usage: "/fly" }
+  size:       { description: "Размер в хабе", usage: "/size <0.5-2.0>" }
+  aegis:      { description: "Админ AEGIS", usage: "/aegis help" }
+
+permissions:
+  aegis.*:
+    description: Все права AEGIS
+    default: op
+    children:
+      aegis.hub: true
+      aegis.tell: true
+      aegis.reply: true
+      aegis.vipchat: true
+      aegis.check: true
+      aegis.donate: true
+      aegis.vip: true
+      aegis.suffix: true
+      aegis.team: true
+      aegis.class: true
+      aegis.case: true
+      aegis.top: true
+      aegis.legend: true
+      aegis.fly: true
+      aegis.size: true
+      aegis.admin: true
+  aegis.hub:     { default: true }
+  aegis.tell:    { default: true }
+  aegis.reply:   { default: true }
+  aegis.vipchat: { default: op }
+  aegis.check:   { default: op }
+  aegis.donate:  { default: true }
+  aegis.vip:     { default: true }
+  aegis.suffix:  { default: true }
+  aegis.team:    { default: true }
+  aegis.class:   { default: true }
+  aegis.case:    { default: true }
+  aegis.top:     { default: true }
+  aegis.legend:  { default: true }
+  aegis.fly:     { default: op }
+  aegis.size:    { default: op }
+  aegis.admin:   { default: op }

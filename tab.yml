@@ -1,0 +1,10 @@
+header:
+  - ""
+  - " <gradient:#a855f7:#7c3aed><bold>✦ AEGIS ✦</bold></gradient> "
+  - " <#c084fc>Королевская Битва • 1.21.11</#c084fc> "
+  - ""
+footer:
+  - ""
+  - " <gray>Онлайн:</gray> <#a855f7><online>/<max></#a855f7> <dark_gray>|</dark_gray> <gray>Пинг:</gray> <#c084fc><ping>ms</#c084fc> "
+  - " <gray>Магазин:</gray> <#e879f9>/donate</#e879f9> <dark_gray>|</dark_gray> <gray>IP:</gray> <white>aegis.gamepvp.ru</white> "
+  - ""

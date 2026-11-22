@@ -1,0 +1,25 @@
+winter_case:
+  display-name: "<gradient:#a855f7:#38bdf8><bold>Зимний кейс</bold></gradient>"
+  price: 90
+  location:
+    world: world_hub
+    x: 105.5
+    y: 64.0
+    z: 105.5
+  rewards:
+    - id: classic_hat
+      rarity: RARE
+    - id: winter_hat_1
+      rarity: RARE
+    - id: winter_hat_2
+      rarity: RARE
+    - id: winter_hat_3
+      rarity: EPIC
+    - id: reindeer_hat
+      rarity: MYTHIC
+    - id: winter_glasses_1
+      rarity: RARE
+    - id: winter_glasses_2
+      rarity: EPIC
+    - id: winter_glasses_3
+      rarity: LEGENDARY

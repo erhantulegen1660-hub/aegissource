@@ -1,0 +1,28 @@
+hub-scoreboard:
+  title: "<gradient:#a855f7:#7c3aed><bold>AEGIS</bold></gradient>"
+  lines:
+    - "<gray>────────────────────</gray>"
+    - "<white>Профиль:</white> <#c084fc><player></#c084fc>"
+    - "<white>Статус:</white> <badge>"
+    - "<white>Аметисты:</white> <#e879f9><amethysts> ✦</#e879f9>"
+    - ""
+    - "<white>Побед КБ:</white> <#a855f7><wins></#a855f7>"
+    - "<white>Убийств:</white> <#a855f7><kills></#a855f7>"
+    - ""
+    - "<#7c3aed>aegis.gamepvp.ru</#7c3aed>"
+    - "<gray>────────────────────</gray>"
+
+match-scoreboard:
+  title: "<gradient:#a855f7:#dc2626><bold>AEGIS • КБ</bold></gradient>"
+  lines:
+    - "<gray>────────────────────</gray>"
+    - "<white>Арена:</white> <#c084fc><arena></#c084fc>"
+    - "<white>Этап:</white> <phase>"
+    - "<white>До смены:</white> <#e879f9><time></#e879f9>"
+    - ""
+    - "<white>Живых:</white> <#a855f7><alive></#a855f7>"
+    - "<white>Барьер:</white> <white><border>x<border></white>"
+    - "<white>Убийств:</white> <#c084fc><match_kills></#c084fc>"
+    - ""
+    - "<#7c3aed>aegis.gamepvp.ru</#7c3aed>"
+    - "<gray>────────────────────</gray>"

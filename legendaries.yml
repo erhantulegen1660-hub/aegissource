@@ -1,0 +1,211 @@
+items:
+  aegis_blade:
+    name: "<gradient:#a855f7:#e879f9><bold>Клинок Эгиды</bold></gradient>"
+    material: NETHERITE_SWORD
+    custom-model-data: 10001
+    cooldown: 25
+    damage: 11.0
+    attack-speed: -2.2
+    lore:
+      - "<gray>Реликвия древней цитадели Эгиды.</gray>"
+      - ""
+      - "<#a855f7>Пассивно:</#a855f7> <white>+15% к скорости передвижения.</white>"
+      - "<#e879f9>ПКМ (КД 25с):</#e879f9> <white>Аметистовый щит (Поглощение II на 6с)</white>"
+      - "<white>и отталкивающая волна в радиусе 5 блоков.</white>"
+    shape:
+      - " A "
+      - "ADA"
+      - " S "
+    ingredients:
+      A: AMETHYST_SHARD
+      D: DIAMOND_SWORD
+      S: NETHERITE_INGOT
+
+  void_reaper:
+    name: "<gradient:#7c3aed:#312e81><bold>Жнец Пустоты</bold></gradient>"
+    material: NETHERITE_SWORD
+    custom-model-data: 10002
+    cooldown: 20
+    damage: 11.5
+    attack-speed: -2.3
+    lore:
+      - "<gray>Выкован из обломков Края и тёмного аметиста.</gray>"
+      - ""
+      - "<#a855f7>Пассивно:</#a855f7> <white>Критический удар накладывает Иссушение I (3с).</white>"
+      - "<#e879f9>ПКМ (КД 20с):</#e879f9> <white>Рывок в пустоту на 8 блоков со слепотой врагам.</white>"
+    shape:
+      - " E "
+      - "EDE"
+      - " B "
+    ingredients:
+      E: ENDER_PEARL
+      D: DIAMOND_SWORD
+      B: CRYING_OBSIDIAN
+
+  thunder_cleaver:
+    name: "<gradient:#38bdf8:#a855f7><bold>Громовой Рассекатель</bold></gradient>"
+    material: NETHERITE_AXE
+    custom-model-data: 10003
+    cooldown: 30
+    damage: 13.0
+    attack-speed: -2.9
+    lore:
+      - "<gray>Топор небесного шторма.</gray>"
+      - ""
+      - "<#a855f7>Пассивно:</#a855f7> <white>Шанс 20% ударить молнией при атаке.</white>"
+      - "<#e879f9>ПКМ (КД 30с):</#e879f9> <white>Призывает разряд молнии в точку взгляда (до 20м).</white>"
+    shape:
+      - "CC "
+      - "CD "
+      - " R "
+    ingredients:
+      C: COPPER_BLOCK
+      D: DIAMOND_AXE
+      R: BLAZE_ROD
+
+  vampire_fang:
+    name: "<gradient:#dc2626:#a855f7><bold>Клык Вампира</bold></gradient>"
+    material: NETHERITE_SWORD
+    custom-model-data: 10004
+    cooldown: 22
+    damage: 10.5
+    attack-speed: -2.1
+    lore:
+      - "<gray>Жаждет крови поверженных противников.</gray>"
+      - ""
+      - "<#a855f7>Пассивно:</#a855f7> <white>Восстанавливает 1.5 HP за каждый удар.</white>"
+      - "<#e879f9>ПКМ (КД 22с):</#e879f9> <white>Вытягивает 4 HP у врагов в радиусе 4 блоков.</white>"
+    shape:
+      - " R "
+      - "RDR"
+      - " G "
+    ingredients:
+      R: REDSTONE_BLOCK
+      D: DIAMOND_SWORD
+      G: GHAST_TEAR
+
+  frost_mourne:
+    name: "<gradient:#7dd3fc:#e0f2fe><bold>Ледяная Скорбь</bold></gradient>"
+    material: NETHERITE_SWORD
+    custom-model-data: 10005
+    cooldown: 24
+    damage: 11.0
+    attack-speed: -2.3
+    lore:
+      - "<gray>Клинок вечной мерзлоты.</gray>"
+      - ""
+      - "<#a855f7>Пассивно:</#a855f7> <white>Замедляет цель (Замедление II на 2с).</white>"
+      - "<#e879f9>ПКМ (КД 24с):</#e879f9> <white>Ледяная нова: замораживает врагов на 3 секунды.</white>"
+    shape:
+      - " B "
+      - "BDB"
+      - " S "
+    ingredients:
+      B: BLUE_ICE
+      D: DIAMOND_SWORD
+      S: SNOW_BLOCK
+
+  phoenix_greatsword:
+    name: "<gradient:#f97316:#eab308><bold>Двуручник Феникса</bold></gradient>"
+    material: NETHERITE_SWORD
+    custom-model-data: 10006
+    cooldown: 28
+    damage: 11.5
+    attack-speed: -2.3
+    lore:
+      - "<gray>Пылает неугасимым пламенем возрождения.</gray>"
+      - ""
+      - "<#a855f7>Пассивно:</#a855f7> <white>Постоянная огнестойкость и поджог цели на 4с.</white>"
+      - "<#e879f9>ПКМ (КД 28с):</#e879f9> <white>Огненное кольцо, подбрасывающее врагов вверх.</white>"
+    shape:
+      - " M "
+      - "MDM"
+      - " B "
+    ingredients:
+      M: MAGMA_CREAM
+      D: DIAMOND_SWORD
+      B: BLAZE_POWDER
+
+  earthshaker_axe:
+    name: "<gradient:#84cc16:#16a34a><bold>Сотрясатель Земли</bold></gradient>"
+    material: NETHERITE_AXE
+    custom-model-data: 10007
+    cooldown: 30
+    damage: 13.5
+    attack-speed: -3.0
+    lore:
+      - "<gray>Тяжёлый боевой топор титанов.</gray>"
+      - ""
+      - "<#a855f7>Пассивно:</#a855f7> <white>+30% к отбрасыванию и сопротивление откидыванию.</white>"
+      - "<#e879f9>ПКМ (КД 30с):</#e879f9> <white>Сейсмический удар по площади (6 блоков).</white>"
+    shape:
+      - "OO "
+      - "OD "
+      - " I "
+    ingredients:
+      O: OBSIDIAN
+      D: DIAMOND_AXE
+      I: IRON_BLOCK
+
+  shadow_dancer:
+    name: "<gradient:#9ca3af:#4b5563><bold>Танец Теней</bold></gradient>"
+    material: NETHERITE_SWORD
+    custom-model-data: 10008
+    cooldown: 26
+    damage: 10.5
+    attack-speed: -2.0
+    lore:
+      - "<gray>Бесшумное оружие ночных ассасинов.</gray>"
+      - ""
+      - "<#a855f7>Пассивно:</#a855f7> <white>Скорость атаки выше на 15%.</white>"
+      - "<#e879f9>ПКМ (КД 26с):</#e879f9> <white>Невидимость и Скорость II на 4 секунды.</white>"
+    shape:
+      - " P "
+      - "PDP"
+      - " F "
+    ingredients:
+      P: PHANTOM_MEMBRANE
+      D: DIAMOND_SWORD
+      F: FERMENTED_SPIDER_EYE
+
+  starlight_sabre:
+    name: "<gradient:#e879f9:#38bdf8><bold>Сабля Звёздного Света</bold></gradient>"
+    material: NETHERITE_SWORD
+    custom-model-data: 10009
+    cooldown: 22
+    damage: 11.0
+    attack-speed: -2.2
+    lore:
+      - "<gray>Светится энергией ночного неба.</gray>"
+      - ""
+      - "<#a855f7>Пассивно:</#a855f7> <white>Подсвечивает атакованную цель на 5 секунд.</white>"
+      - "<#e879f9>ПКМ (КД 22с):</#e879f9> <white>Звёздный луч, наносящий 6 чистого урона.</white>"
+    shape:
+      - " G "
+      - "GDG"
+      - " A "
+    ingredients:
+      G: GLOWSTONE
+      D: DIAMOND_SWORD
+      A: AMETHYST_BLOCK
+
+  crown_breaker:
+    name: "<gradient:#eab308:#dc2626><bold>Крушитель Корон</bold></gradient>"
+    material: NETHERITE_AXE
+    custom-model-data: 10010
+    cooldown: 32
+    damage: 13.5
+    attack-speed: -2.9
+    lore:
+      - "<gray>Создан для сокрушения самой прочной брони.</gray>"
+      - ""
+      - "<#a855f7>Пассивно:</#a855f7> <white>Наносит на 20% больше урона по прочности брони.</white>"
+      - "<#e879f9>ПКМ (КД 32с):</#e879f9> <white>Рывок с сокрушением щита и Слабостью II.</white>"
+    shape:
+      - "GG "
+      - "GD "
+      - " N "
+    ingredients:
+      G: GOLD_BLOCK
+      D: DIAMOND_AXE
+      N: NETHERITE_SCRAP

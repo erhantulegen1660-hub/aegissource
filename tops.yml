@@ -1,0 +1,22 @@
+update-interval-seconds: 60
+displays:
+  kills:
+    world: "world_hub"
+    x: 92.5
+    y: 66.5
+    z: 105.5
+  wins:
+    world: "world_hub"
+    x: 94.5
+    y: 66.5
+    z: 107.5
+  legendaries:
+    world: "world_hub"
+    x: 106.5
+    y: 66.5
+    z: 107.5
+  deaths:
+    world: "world_hub"
+    x: 108.5
+    y: 66.5
+    z: 105.5
